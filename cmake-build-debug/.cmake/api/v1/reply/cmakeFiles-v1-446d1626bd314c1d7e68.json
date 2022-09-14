@@ -256,11 +256,6 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-FindBinUtils.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in"
 		},
 		{
@@ -305,12 +300,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake"
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Compiler/MSVC-C.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -320,12 +310,12 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake"
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-MSVC-C.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake"
+			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -345,11 +335,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -419,11 +404,6 @@
 		{
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

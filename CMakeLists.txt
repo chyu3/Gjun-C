@@ -5,4 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Gjun_C
         1_4.c
-        2_1.c)
+        2_1.c 2_2.cpp)

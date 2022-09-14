@@ -2,22 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "CMAKE_ADDR2LINE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/addr2line.exe"
-		},
-		{
 			"name" : "CMAKE_AR",
 			"properties" : 
 			[
@@ -31,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/ar.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x64/lib.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -143,39 +127,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_AR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc-ar.exe"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_RANLIB",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc-ranlib.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x64/cl.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -191,7 +143,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/DWIN32 /D_WINDOWS"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_DEBUG",
@@ -207,7 +159,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-g"
+			"value" : "/Zi /Ob0 /Od /RTC1"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
@@ -223,7 +175,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-Os -DNDEBUG"
+			"value" : "/O1 /Ob1 /DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELEASE",
@@ -239,7 +191,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O3 -DNDEBUG"
+			"value" : "/O2 /Ob2 /DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
@@ -255,7 +207,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O2 -g -DNDEBUG"
+			"value" : "/Zi /O2 /Ob1 /DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_STANDARD_LIBRARIES",
@@ -271,23 +223,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
-		},
-		{
-			"name" : "CMAKE_DLLTOOL",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/dlltool.exe"
+			"value" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -315,7 +251,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/machine:x64"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
@@ -331,7 +267,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
@@ -347,7 +283,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
@@ -363,7 +299,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
@@ -379,7 +315,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -458,18 +394,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_GNUtoMS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Convert GNU import libraries to MS format (requires Visual Studio)"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -507,7 +431,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/ld.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x64/link.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -535,7 +459,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/machine:x64"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
@@ -551,7 +475,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
@@ -567,7 +491,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
@@ -583,7 +507,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
@@ -599,10 +523,10 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
-			"name" : "CMAKE_NM",
+			"name" : "CMAKE_MT",
 			"properties" : 
 			[
 				{
@@ -615,7 +539,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/nm.exe"
+			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/mt.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -628,38 +552,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_OBJCOPY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/objcopy.exe"
-		},
-		{
-			"name" : "CMAKE_OBJDUMP",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -714,16 +606,12 @@
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "noop for ranlib"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/ranlib.exe"
+			"type" : "INTERNAL",
+			"value" : ":"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -739,7 +627,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/windres.exe"
+			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x86/rc.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -767,7 +655,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-DWIN32"
 		},
 		{
 			"name" : "CMAKE_RC_FLAGS_DEBUG",
@@ -783,7 +671,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-D_DEBUG"
 		},
 		{
 			"name" : "CMAKE_RC_FLAGS_MINSIZEREL",
@@ -834,22 +722,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_READELF",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/readelf.exe"
-		},
-		{
 			"name" : "CMAKE_ROOT",
 			"properties" : 
 			[
@@ -875,7 +747,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/machine:x64"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
@@ -891,7 +763,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
@@ -907,7 +779,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
@@ -923,7 +795,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
@@ -939,7 +811,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_SKIP_INSTALL_RPATH",
@@ -987,7 +859,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/machine:x64"
 		},
 		{
 			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
@@ -1052,22 +924,6 @@
 			],
 			"type" : "STRING",
 			"value" : ""
-		},
-		{
-			"name" : "CMAKE_STRIP",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",

@@ -1,8 +1,8 @@
 "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\User\OneDrive\Documents\GitHub\Gjun-C -B C:\Users\User\OneDrive\Documents\GitHub\Gjun-C\cmake-build-debug
--- The C compiler identification is GNU 8.1.0
+-- The C compiler identification is MSVC 19.30.30709.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe - skipped
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x64/cl.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
